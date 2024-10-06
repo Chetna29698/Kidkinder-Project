@@ -1,0 +1,1205 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    height: 95px;
+    width: 100%;
+    background-color: rgb(245, 241, 241);
+    /* position: relative; */
+    position: fixed;
+    z-index: 1;
+}
+
+.logo h1 {
+    font-size: 55px;
+    font-family: sans-serif;
+    color: #17a2b8;
+    position: absolute;
+    top: 16px;
+    left: 50px;
+}
+
+
+.nav ul {
+    position: absolute;
+    left: 450px;
+    top: 35px;
+}
+
+.nav li {
+    float: left;
+    width: 100px;
+    list-style-type: none;
+
+}
+
+.nav a {
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.nav a:hover {
+    color: #17a2b8;
+}
+
+.header button {
+    background-color: #17a2b8;
+    padding: 8px 15px 8px 15px;
+    font-size: 18px;
+    color: white;
+    border-radius: 50px;
+    border-color: #17a2b8;
+    position: absolute;
+    top: 25px;
+    right: 30px;
+}
+
+.header button:hover {
+    background-color: #0f6370;
+}
+
+/* ----------------------------------kid div-------------------------------- */
+.kid {
+    height: 600px;
+    width: 100%;
+    background-color: #17a2b8;
+    position: relative;
+}
+
+.kid img {
+    height: 580px;
+    width: 550px;
+    position: absolute;
+    bottom: 0px;
+    right: 50px;
+
+}
+
+/* .kid img:hover{
+    transform: scale(1.1);
+} */
+.kid h5 {
+    color: white;
+    position: absolute;
+    left: 50px;
+    top: 150px;
+    font-size: 20px;
+    font-family: "Handlee", cursive
+}
+
+.kid h1 {
+    color: white;
+    position: absolute;
+    top: 190px;
+    left: 50px;
+    font-size: 50px;
+    font-family: "Handlee", cursive;
+}
+
+.kid p {
+    color: white;
+    font-size: 15px;
+    font-family: "Handlee", cursive;
+    position: absolute;
+    top: 330px;
+    left: 50px;
+}
+
+.kid button {
+    background-color: #0e6c7a;
+    padding: 15px 50px 15px 50px;
+    font-size: 18px;
+    color: white;
+    border-radius: 50px;
+    border-color: #0e6c7a;
+    position: absolute;
+    top: 430px;
+    left: 50px;
+
+}
+
+.kid button:hover {
+    background-color: #083c44;
+
+}
+
+/* --------------------activities div----------------------------- */
+.activities {
+    height: 550px;
+    width: 100%;
+    /* background-color: rgb(10, 201, 42); */
+    display: grid;
+    grid-template-columns: 340px 340px 340px;
+    grid-template-rows: 185px 185px 185px;
+    gap: 20px;
+
+}
+
+.box {
+    background-color: rgb(219, 219, 219);
+    border-radius: 10px;
+    position: relative;
+    top: 90px;
+    left: 140px;
+}
+
+.box i {
+    font-size: 50px;
+    color: rgb(117, 181, 240);
+    position: absolute;
+    top: 30px;
+    left: 20px;
+}
+
+.box h1 {
+    font-size: 25px;
+    color: black;
+    font-family: "Handlee", cursive;
+    position: absolute;
+    top: 30px;
+    left: 110px;
+}
+
+.box p {
+    font-size: 15px;
+    position: absolute;
+    top: 80px;
+    left: 110px;
+    color: black;
+    font-family: "Handlee", cursive;
+}
+
+/* ------------------------------best school-------------------------------- */
+
+.bestschool {
+    height: 700px;
+    width: 100%;
+    /* background-color: chocolate; */
+    position: relative;
+
+}
+
+.photo {
+    height: 550px;
+    width: 500px;
+    overflow: hidden;
+}
+
+.photo img {
+    height: 550px;
+    width: 500px;
+    position: absolute;
+    top: 100px;
+    left: 140px;
+    border-radius: 10px;
+
+}
+
+.photo img:hover {
+    transform: scale(1.1);
+}
+
+.content h6 {
+    color: rgb(161, 158, 158);
+    font-size: 20px;
+    font-family: sans-serif;
+    position: absolute;
+    top: 150px;
+    left: 700px;
+    text-transform: uppercase;
+}
+
+.content h6::after {
+    content: "";
+    height: 5px;
+    width: 43px;
+    display: block;
+    background-color: rgb(161, 158, 158);
+    position: absolute;
+    top: 7px;
+    left: 190px;
+    border-radius: 10px;
+}
+
+.content h1 {
+    font-size: 30px;
+    font-family: "Handlee", cursive;
+    color: black;
+    position: absolute;
+    top: 190px;
+    left: 700px;
+    font-weight: bold;
+}
+
+.content p {
+    font-size: 15px;
+    font-family: "Handlee", cursive;
+    color: black;
+    position: absolute;
+    top: 250px;
+    left: 700px;
+    right: 100px;
+}
+
+.content img {
+    position: absolute;
+    top: 350px;
+    left: 700px;
+}
+
+.content ul {
+    position: absolute;
+    top: 350px;
+    right: 180px;
+}
+
+.content li {
+    line-height: 40px;
+    font-size: 18px;
+    color: black;
+    list-style-image: url(img/yes-sign.png);
+
+}
+
+.content button {
+    background-color: #17a2b8;
+    font-size: 15px;
+    border-radius: 50px;
+    border-color: #17a2b8;
+    color: white;
+    position: absolute;
+    top: 520px;
+    left: 700px;
+    padding: 7px 15px 7px 15px;
+}
+
+.content button:hover {
+    background-color: #083c44;
+    border-color: #083c44;
+}
+
+/* -----------------------------popular classes------------------------- */
+
+.classes {
+    height: 750px;
+    width: 100%;
+    /* background-color: coral; */
+    position: relative;
+}
+
+.classes p {
+    font-size: 22px;
+    color: rgb(192, 192, 192);
+    text-transform: uppercase;
+    position: absolute;
+    top: 20px;
+    left: 580px;
+}
+
+.classes p::before {
+    content: "";
+    height: 3px;
+    width: 60px;
+    display: block;
+    background-color: rgb(192, 192, 192);
+    position: absolute;
+    top: 10px;
+    right: 220px;
+}
+
+.classes p::after {
+    content: "";
+    height: 3px;
+    width: 60px;
+    display: block;
+    background-color: rgb(192, 192, 192);
+    position: absolute;
+    top: 10px;
+    left: 220px;
+}
+
+.classes h2 {
+    font-size: 35px;
+    color: black;
+    font-family: "Handlee", cursive;
+    position: absolute;
+    top: 50px;
+    left: 500px;
+}
+
+.classes .drawing {
+    height: 560px;
+    width: 340px;
+    background-color: rgb(241, 241, 241);
+    position: relative;
+    top: 130px;
+    left: 100px;
+}
+.classes .drawing img{
+    height: 210px;
+    width: 340px;
+}
+.classes .drawing h3{
+    position: absolute;
+    top: 230px;
+    left: 80px;
+    font-size: 25px;
+    color: darkblue;
+    font-family: "Handlee", cursive;
+}
+.classes .drawing .para{
+    position: absolute;
+    top: 280px;
+    left: 10px;
+    right: 0px;
+    font-size: 15px;
+    font-family: "Handlee", cursive;
+    color: black;
+}
+.classes .language {
+    height: 560px;
+    width: 340px;
+    background-color: rgb(241, 241, 241);
+    position: relative;
+    top: -430px;
+    left: 510px;
+}
+.classes .language img{
+    height: 210px;
+    width: 340px;
+}
+.classes .language h3{
+    position: absolute;
+    top: 230px;
+    left: 50px;
+    font-size: 25px;
+    color: darkblue;
+    font-family: "Handlee", cursive;
+}
+.classes .language .para{
+    position: absolute;
+    top: 280px;
+    left: 10px;
+    right: -5px;
+    font-size: 15px;
+    font-family: "Handlee", cursive;
+    color: black;
+}
+.classes .science {
+    height: 560px;
+    width: 320px;
+    background-color: rgb(241, 241, 241);
+    position: relative;
+    bottom: 990px;
+    left: 920px;
+}
+.classes .science img{
+    height: 210px;
+    width: 320px;
+}
+.classes .science h3{
+    position: absolute;
+    top: 230px;
+    left: 80px;
+    font-size: 25px;
+    color: darkblue;
+    font-family: "Handlee", cursive;
+}
+.classes .science .para{
+    position: absolute;
+    top: 280px;
+    left: 10px;
+    right: 0px;
+    font-size: 15px;
+    font-family: "Handlee", cursive;
+    color: black;
+}
+/* ------------------------bookseat----------------------------------- */
+
+.bookseat{
+    height: 500px;
+    width: 100%;
+    /* background-color: darkviolet; */
+}
+.seat1{
+    height: 700px;
+    width: 50%;
+    float: left;
+    /* background-color: hotpink; */
+    position: relative;
+}
+.seat1 h6{
+    color: gray;
+    font-size: 20px;
+    text-transform: uppercase;
+    position: absolute;
+    left: 100px;
+    top: 50px;
+}
+.seat1 h6::after{
+    content: "";
+    display: block;
+    background-color: gray;
+    height: 3px;
+    width: 60px;
+    position: absolute;
+    left: 140px;
+    top: 10px;
+}
+.seat1 h1{
+    color: black;
+    font-size: 30px;
+    text-transform: capitalize;
+    font-family: "Handlee", cursive;
+    position: absolute;
+    left: 100px;
+    top: 90px;
+}
+.seat1 p{
+    color: black;
+    font-size: 16px;
+    /* text-transform: capitalize; */
+    font-family: "Handlee", cursive;
+    position: absolute;
+    left: 100px;
+    top: 150px;
+}
+.seat1 ul{
+   position: absolute;
+   left: 130px;
+   top: 240px;
+}
+.seat1 li{
+    font-size: 16px;
+    color: black;
+    padding-bottom: 18px;
+}
+.seat1 button{
+    background-color: #17a2b8;
+    color: white;
+    padding: 8px 17px 8px 17px;
+    border-color: #17a2b8;
+    border-radius: 50px;
+    font-size: 15px;
+    position: absolute;
+    left: 100px;
+    top: 360px;
+}
+.seat1 button:hover{
+    background-color: #0e6a79;
+    border-color: #0e6a79;
+}
+.seat2{
+    height: 700px;
+    width: 50%;
+    float: right;
+    /* background-color: rgb(233, 255, 105); */
+    
+}
+.seat2 .form .f1{
+    height: 100px;
+    width: 450px;
+    background-color: darkblue;
+    position: relative;
+    top: 50px;
+    left: 100px;
+}
+.seat2 .form .f1 h1{
+    font-size: 45px;
+    font-family: "Handlee", cursive;
+    color: white;
+    position: absolute;
+    top: 10px;
+    left: 80px;
+    text-transform: capitalize;
+}
+.seat2 .form .f2{
+    height: 300px;
+    width: 450px;
+    background-color: rgb(84, 152, 241);
+    position: relative;
+    top: 50px;
+    left: 100px;
+}
+.seat2 .form .f2 #name{
+    font-size: 15px;
+    padding: 10px 150px 10px 20px;
+    border-radius: 5px;
+    position: absolute;
+    top: 50px;
+    left: 40px;
+}
+.seat2 .form .f2 #email{
+    font-size: 15px;
+    padding: 10px 150px 10px 20px;
+    border-radius: 5px;
+    position: absolute;
+    top: 100px;
+    left: 40px;
+}
+.seat2 .form .f2 #class{
+    font-size: 15px;
+    padding: 10px 220px 10px 20px;
+    border-radius: 5px;
+    position: absolute;
+    top: 150px;
+    left: 40px;
+}
+.seat2 .form .f2 button{
+    font-size: 18px;
+    background-color: darkblue;
+    color: white;
+    padding: 10px 140px 10px 140px;
+    border-radius: 20px;
+    position: absolute;
+    top: 205px;
+    left: 40px;
+}
+
+/* -----------------------------our teacher---------------------------- */
+
+.teacher{
+    height: 500px;
+    width: 100%;
+    /* background-color: blanchedalmond; */
+    position: relative;
+}
+.teacher h6{
+    color: gray;
+    font-size: 20px;
+    position: absolute;
+    top: 30px;
+    left: 600px;
+}
+.teacher h6::before{
+    content: "";
+    height: 3px;
+    width: 50px;
+    background-color: grey;
+    display: block;
+    position: absolute;
+    top: 12px;
+    right: 120px;
+}
+.teacher h6::after{
+    content: "";
+    height: 3px;
+    width: 50px;
+    background-color: grey;
+    display: block;
+    position: absolute;
+    top: 12px;
+    left: 120px;
+}
+.teacher h1{
+    font-size: 35px;
+    color: black;
+    font-family: "Handlee", cursive;
+    position: absolute;
+    top: 50px;
+    left: 480px;
+}
+.images #img1{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 60px;
+    left: 100px;
+}
+.images #img2{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 60px;
+    left: 140px;
+}
+.images #img3{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 60px;
+    left: 180px;
+}
+.images #img4{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 60px;
+    left: 230px;
+}
+.names #n1{
+    font-size: 19px;
+    color: darkblue;
+    font-family: "Handlee", cursive;
+    position: relative;
+    bottom: 60px;
+    left: 170px;
+}
+.names #n2{
+    font-size: 19px;
+    color: darkblue;
+    font-family: "Handlee", cursive;
+    position: relative;
+    bottom: 85px;
+    left: 470px;
+}
+.names #n3{
+    font-size: 19px;
+    color: darkblue;
+    font-family: "Handlee", cursive;
+    position: relative;
+    bottom: 110px;
+    left: 770px;
+}
+.names #n4{
+    font-size: 19px;
+    color: darkblue;
+    font-family: "Handlee", cursive;
+    position: relative;
+    bottom: 140px;
+    left: 1060px;
+}
+.profession #music{
+    font-size: 17px;
+    color: gray;
+    font-family: "Handlee", cursive;
+    position: relative;
+    bottom: 130px;
+    left: 170px;
+}
+.profession #lang{
+    font-size: 17px;
+    color: gray;
+    font-family: "Handlee", cursive;
+    position: relative;
+    bottom: 155px;
+    left: 450px;
+}
+.profession #dance{
+    font-size: 17px;
+    color: gray;
+    font-family: "Handlee", cursive;
+    position: relative;
+    bottom: 178px;
+    left: 760px;
+}
+.profession #art{
+    font-size: 17px;
+    color: gray;
+    font-family: "Handlee", cursive;
+    position: relative;
+    bottom: 202px;
+    left: 1065px;
+}
+
+
+/* -----------------------------artical blog------------------------- */
+
+.blog{
+    height: 700px;
+    width: 100%;
+    /* background-color: palevioletred; */
+    position: relative;
+}
+.blog p{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: gray;
+    font-family: sans-serif;
+    position: absolute;
+    top: 20px;
+    left: 600px;
+}
+.blog p::before{
+    content: "";
+    background-color: gray;
+    height: 3px;
+    width: 50px;
+    display: block;
+    position: relative;
+    top: 11px;
+    right: 60px;
+}
+.blog p::after{
+    content: "";
+    background-color: gray;
+    height: 3px;
+    width: 50px;
+    display: block;
+    position: relative;
+    bottom: 14px;
+    left: 150px;
+}
+.blog h2{
+    font-size: 35px;
+    color: rgb(0, 0, 58);
+    text-transform: capitalize;
+    font-family: "Handlee", cursive;
+    position: absolute;
+    top: 50px;
+    left: 470px;
+}
+.blog1{
+    height: 500px;
+    width: 340px;
+    background-color: rgb(241, 241, 241);
+    position: relative;
+    top: 130px;
+    left: 110px;
+}
+.blog1 img{
+    height: 200px;
+    width: 340px;
+}
+.blog1 h3{
+    font-family: sans-serif;
+    color: rgb(0, 0, 58);
+    font-size: 24px;
+    position: absolute;
+    top: 220px;
+    left: 26px;
+}
+.blog1 .fa-user{
+    position: absolute;
+    top: 260px;
+    right: 285px;
+    color: rgb(0, 162, 255);
+}
+.blog1 #s1{
+    font-size: 15px;
+    color: black;
+    position: absolute;
+    top: 260px;
+    right: 235px;
+}
+.blog1 .fa-folder{
+    position: absolute;
+    top: 260px;
+    right: 200px;
+    color: rgb(0, 162, 255);
+}
+.blog1 #s2{
+    font-size: 15px;
+    color: black;
+    position: absolute;
+    top: 260px;
+    right: 120px;
+}
+.blog1 .fa-comments{
+    position: absolute;
+    top: 260px;
+    right: 80px;
+    color: rgb(0, 162, 255);
+}
+.blog1 #s3{
+    font-size: 15px;
+    color: black;
+    position: absolute;
+    top: 260px;
+    right: 60px;
+}
+.blog1 .bpara{
+    color: black;
+    position: absolute;
+    top: 300px;
+    left: 15px;
+    right: 15px;
+    text-align: center;
+    font-size: 18px;
+}
+.blog1 button{
+    background-color: #17a2b8;
+    color: white;
+    border-color: #17a2b8;
+    padding: 5px 12px 5px 12px;
+    font-size: 15px;
+    border-radius: 20px;
+    position: absolute;
+    top: 410px;
+    left: 110px;
+}
+.blog1 button:hover{
+    background-color: #0e6a79;
+}
+
+
+.blog2{
+    height: 500px;
+    width: 340px;
+    background-color: rgb(241, 241, 241);
+    position: relative;
+    bottom: 370px;
+    left: 490px;
+}
+.blog2 img{
+    height: 200px;
+    width: 340px;
+}
+.blog2 h3{
+    font-family: sans-serif;
+    color: rgb(0, 0, 58);
+    font-size: 24px;
+    position: absolute;
+    top: 220px;
+    left: 26px;
+}
+.blog2 .fa-user{
+    position: absolute;
+    top: 260px;
+    right: 285px;
+    color: rgb(0, 162, 255);
+}
+.blog2 #s1{
+    font-size: 15px;
+    color: black;
+    position: absolute;
+    top: 260px;
+    right: 235px;
+}
+.blog2 .fa-folder{
+    position: absolute;
+    top: 260px;
+    right: 200px;
+    color: rgb(0, 162, 255);
+}
+.blog2 #s2{
+    font-size: 15px;
+    color: black;
+    position: absolute;
+    top: 260px;
+    right: 120px;
+}
+.blog2 .fa-comments{
+    position: absolute;
+    top: 260px;
+    right: 80px;
+    color: rgb(0, 162, 255);
+}
+.blog2 #s3{
+    font-size: 15px;
+    color: black;
+    position: absolute;
+    top: 260px;
+    right: 60px;
+}
+.blog2 .bpara{
+    color: black;
+    position: absolute;
+    top: 300px;
+    left: 15px;
+    right: 15px;
+    text-align: center;
+    font-size: 18px;
+}
+.blog2 button{
+    background-color: #17a2b8;
+    color: white;
+    border-color: #17a2b8;
+    padding: 5px 12px 5px 12px;
+    font-size: 15px;
+    border-radius: 20px;
+    position: absolute;
+    top: 410px;
+    left: 110px;
+}
+.blog2 button:hover{
+    background-color: #0e6a79;
+}
+
+.blog3{
+    height: 500px;
+    width: 340px;
+    background-color: rgb(241, 241, 241);
+    position: relative;
+    bottom: 870px;
+    left: 870px;
+}
+.blog3 img{
+    height: 200px;
+    width: 340px;
+}
+.blog3 h3{
+    font-family: sans-serif;
+    color: rgb(0, 0, 58);
+    font-size: 24px;
+    position: absolute;
+    top: 220px;
+    left: 26px;
+}
+.blog3 .fa-user{
+    position: absolute;
+    top: 260px;
+    right: 285px;
+    color: rgb(0, 162, 255);
+}
+.blog3 #s1{
+    font-size: 15px;
+    color: black;
+    position: absolute;
+    top: 260px;
+    right: 235px;
+}
+.blog3 .fa-folder{
+    position: absolute;
+    top: 260px;
+    right: 200px;
+    color: rgb(0, 162, 255);
+}
+.blog3 #s2{
+    font-size: 15px;
+    color: black;
+    position: absolute;
+    top: 260px;
+    right: 120px;
+}
+.blog3 .fa-comments{
+    position: absolute;
+    top: 260px;
+    right: 80px;
+    color: rgb(0, 162, 255);
+}
+.blog3 #s3{
+    font-size: 15px;
+    color: black;
+    position: absolute;
+    top: 260px;
+    right: 60px;
+}
+.blog3 .bpara{
+    color: black;
+    position: absolute;
+    top: 300px;
+    left: 15px;
+    right: 15px;
+    text-align: center;
+    font-size: 18px;
+}
+.blog3 button{
+    background-color: #17a2b8;
+    color: white;
+    border-color: #17a2b8;
+    padding: 5px 12px 5px 12px;
+    font-size: 15px;
+    border-radius: 20px;
+    position: absolute;
+    top: 410px;
+    left: 110px;
+}
+.blog3 button:hover{
+    background-color: #0e6a79;
+}
+
+
+/* -----------------------------------------Footer div--------------------------------------- */
+
+.footer{
+    height: 600px;
+    width: 100%;
+    background-color: #083c44;
+    display: flex;
+}
+
+/* -------------------footer1----------------------- */
+.footer1{
+    height: 370px;
+    width: 26%;
+    /* border: 5px solid white; */
+    position: relative;
+}
+.footer1 h1{
+    color: white;
+    font-family: sans-serif;
+    position: absolute;
+    top: 60px;
+    left: 100px;
+    font-size: 40px;
+}
+.footer1 p{
+    color: white;
+    position: absolute;
+    top: 130px;
+    left: 40px;
+    right: 12px;
+}
+.fa-twitter{
+    color: #17a2b8;
+    font-size: 30px;
+    position: absolute;
+    top: 260px;
+    left: 60px;
+}
+.fa-twitter:hover{
+    color: white;
+}
+.fa-facebook-f{
+    color: #17a2b8;
+    font-size: 30px;
+    position: absolute;
+    top: 260px;
+    left: 130px;
+}
+.fa-facebook-f:hover{
+    color: white;
+}
+.fa-linkedin{
+    color: #17a2b8;
+    font-size: 30px;
+    position: absolute;
+    top: 260px;
+    left: 190px;
+}
+.fa-linkedin:hover{
+    color: white;
+}
+.fa-instagram{
+    color: #17a2b8;
+    font-size: 30px;
+    position: absolute;
+    top: 260px;
+    left: 260px;
+}
+.fa-instagram:hover{
+    color: white;
+}
+
+/* ---------------------footer2----------------------- */
+
+.footer2{
+    height: 370px;
+    width: 21%;
+    /* border: 5px solid white; */
+    position: relative;
+    left: 20px;
+}
+.footer2 h1{
+    color: #17a2b8;
+    position: absolute;
+    top: 60px;
+    left: 20px;
+    font-size: 35px;
+    font-family: sans-serif;
+}
+.footer2 ul{
+    position: absolute;
+    top: 120px;
+    left: 20px;
+}
+.footer2 li{
+    color: #17a2b8;
+    list-style-type: none;
+    line-height: 70px;
+    font-size: 23px;
+}
+.footer2 ol{
+    position: absolute;
+    top: 135px;
+    left: 55px;
+}
+.footer2 ol li{
+    color: white;
+    list-style-type: none;
+    line-height: 35px;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+/* -------------------footer3----------------------- */
+.footer3{
+    height: 370px;
+    width: 21%;
+    /* border: 5px solid white; */
+    position: relative;
+    left: 40px;   
+}
+.footer3 h1{
+    color: #17a2b8;
+    position: absolute;
+    top: 60px;
+    left: 20px;
+    font-size: 35px;
+    font-family: sans-serif;
+}
+.footer3 ul{
+    position: absolute;
+    top: 135px;
+    left: 55px;
+}
+.footer3 ul li{
+    color: white;
+    list-style-type: disc;
+    line-height: 35px;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+/* ----------------------footer4---------------------------- */
+
+.footer4{
+    height: 370px;
+    width: 28%;
+    /* border: 5px solid white; */
+    position: relative;
+    left: 50px;   
+}
+.footer4 h1{
+    color: #17a2b8;
+    position: absolute;
+    top: 60px;
+    left: 20px;
+    font-size: 35px;
+    font-family: sans-serif;
+}
+.footer4 #name{
+    position: absolute;
+    top: 130px;
+    left: 20px;
+    padding: 15px 80px 15px 15px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+.footer4 #email{
+    position: absolute;
+    top: 200px;
+    left: 20px;
+    padding: 15px 80px 15px 15px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+.footer4 button{
+    position: absolute;
+    top: 265px;
+    left: 20px;
+    padding: 15px 103px 15px 103px;
+    border-radius: 60px;
+    font-size: 15px;
+    background-color: #2ca7b9;
+    color: white;
+    border-color: #2ca7b9;
+    font-size: 15px;
+}
+
+ #k1{
+    position: relative;
+    bottom: 185px;
+    left: 400px;
+    font-size: 18px;
+    color: #2ca7b9;
+ }
+ #k2{
+    position: relative;
+    bottom: 180px;
+    left: 500px;
+    font-size: 18px;
+    color: #2ca7b9;
+ 
+ }
